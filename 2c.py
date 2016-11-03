@@ -24,7 +24,7 @@ while i<40:
 		x.append(float(Er))
 		n1=float(Er)
 		n2=1000*(np.exp(-n1/10))	#n2 gives total no of background events
-		n3=100*20*(n1-5) 			#n3 gives total no of expected events for given sigma here sigma=0.01
+		n3=0.01*20*(n1-5) 			#n3 gives total no of expected events for given sigma here sigma=0.01
 		n4=n3+n2
 		N.append(n4)		
 		
@@ -34,7 +34,7 @@ while i<40:
 		x.append(float(Er))
 		n1=float(Er)
 		n2=1000*(np.exp(-n1/10))	#n2 gives total no of background events
-		n3=100*20*(25-n1) 			#n3 gives total no of expected events for given sigma ,here sigma=0.01
+		n3=0.01*20*(25-n1) 			#n3 gives total no of expected events for given sigma ,here sigma=0.01
 		n4=n3+n2
 		N.append(n4)		
 		
